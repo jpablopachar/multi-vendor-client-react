@@ -1,6 +1,9 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit'
+import axios from 'axios'
 import { jwtDecode } from 'jwt-decode'
 import api from '../../api/api'
+
+const baseURL = `${import.meta.env.VITE_API_URL}/api`
 
 export const adminLogin = createAsyncThunk(
   'auth/adminLogin',
@@ -68,9 +71,11 @@ export const sellerLogin = createAsyncThunk(
   'auth/sellerLogin',
   async (info, { rejectWithValue, fulfillWithValue }) => {
     try {
-      const { data } = await api.post('/auth/seller-login', info, {
+      /* const { data } = await api.post('/auth/seller-login', info, {
         withCredentials: true,
-      })
+      }) */
+
+      const { data } = await axios.post(`${baseURL}/auth/seller-login`, info, { withCredentials: true })
 
       localStorage.setItem('accessToken', data.token)
 
