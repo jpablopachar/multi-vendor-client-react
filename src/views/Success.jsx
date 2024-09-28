@@ -4,12 +4,10 @@ import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { FadeLoader } from 'react-spinners'
-import Error from '../../assets/images/error.png'
-import SuccessImage from '../../assets/images/success.png'
 import {
   active_stripe_connect_account,
   messageClear,
-} from '../store/Reducers/sellerReducer'
+} from '../store/reducers/sellerReducer'
 
 const Success = () => {
   const navigate = useNavigate()
@@ -39,7 +37,7 @@ const Success = () => {
         <FadeLoader />
       ) : errorMessage ? (
         <>
-          <img src={Error} alt="" />
+          <img src="/images/error.png" alt="" />
           <button
             onClick={redirect}
             className="px-5 py-2 bg-green-700 rounded-sm text-white"
@@ -50,7 +48,7 @@ const Success = () => {
       ) : (
         successMessage && (
           <>
-            <img src={SuccessImage} alt="" />
+            <img src="/images/success.png" alt="" />
             <button
               onClick={redirect}
               className="px-5 py-2 bg-green-700 rounded-sm text-white"

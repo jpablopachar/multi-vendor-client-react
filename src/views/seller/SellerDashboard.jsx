@@ -7,7 +7,6 @@ import { FaCartShopping } from 'react-icons/fa6'
 import { MdCurrencyExchange, MdProductionQuantityLimits } from 'react-icons/md'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import Customer from '../../assets/images/demo.jpg'
 import { getSellerDashboardData } from '../../store/reducers/dashboardReducer'
 
 const SellerDashboard = () => {
@@ -191,7 +190,7 @@ const SellerDashboard = () => {
                       ) : (
                         <img
                           className="w-full rounded-full h-full shadow-lg"
-                          src={Customer}
+                          src="/images/demo.jpg"
                           alt=""
                         />
                       )}

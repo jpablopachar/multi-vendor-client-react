@@ -180,7 +180,7 @@ const ChatSeller = () => {
                             <div>
                               <img
                                 className="w-[38px] h-[38px] border-2 border-white rounded-full max-w-[38px] p-[3px]"
-                                src="http://localhost:5173/src/assets/images/demo.jpg"
+                                src="/images/demo.jpg"
                                 alt=""
                               />
                             </div>
@@ -204,7 +204,7 @@ const ChatSeller = () => {
                             <div>
                               <img
                                 className="w-[38px] h-[38px] border-2 border-white rounded-full max-w-[38px] p-[3px]"
-                                src="http://localhost:5173/src/assets/images/admin.jpg"
+                                src="/images/admin.jpg"
                                 alt=""
                               />
                             </div>

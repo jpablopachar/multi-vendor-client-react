@@ -8,7 +8,6 @@ import { FaCartShopping } from 'react-icons/fa6'
 import { MdCurrencyExchange, MdProductionQuantityLimits } from 'react-icons/md'
 import { useDispatch, useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
-import Seller from '../../assets/images/seller.png'
 import { getAdminDashboardData } from '../../store/reducers/dashboardReducer'
 
 const AdminDashboard = () => {
@@ -191,7 +190,7 @@ const AdminDashboard = () => {
                       ) : (
                         <img
                           className="w-full rounded-full h-full shadow-lg"
-                          src={Seller}
+                          src="/images/seller.png"
                           alt=""
                         />
                       )}

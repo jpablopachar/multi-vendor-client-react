@@ -3,7 +3,6 @@ import toast from 'react-hot-toast'
 import { useDispatch, useSelector } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { PropagateLoader } from 'react-spinners'
-import Logo from '../../assets/images/logo.png'
 import { adminLogin, messageClear } from '../../store/reducers/authReducer'
 
 const AdminLogin = () => {
@@ -64,7 +63,7 @@ const AdminLogin = () => {
             <div className="w-[180px] h-[50px]">
               {<img
                 className="w-full h-full"
-                src={Logo}
+                src="/images/logo.png"
                 alt="image"
               />}
             </div>
