@@ -47,7 +47,7 @@ const SellerDetails = () => {
               {seller?.image ? (
                 <img
                   className="w-full h-[230px]"
-                  src="http://localhost:5173/src/assets/images/demo.jpg"
+                  src="/images/demo.jpg"
                   alt=""
                 />
               ) : (

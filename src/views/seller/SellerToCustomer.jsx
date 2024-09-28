@@ -120,7 +120,7 @@ const SellerToCustomer = () => {
                   <div className="relative">
                     <img
                       className="w-[38px] h-[38px] border-white border-2 max-w-[38px] p-[2px] rounded-full"
-                      src="http://localhost:5173/src/assets/images/admin.jpg"
+                      src="/images/admin.jpg"
                       alt=""
                     />
                     <div className="w-[10px] h-[10px] bg-green-500 rounded-full absolute right-0 bottom-0"></div>
@@ -142,7 +142,7 @@ const SellerToCustomer = () => {
                   <div className="relative">
                     <img
                       className="w-[45px] h-[45px] border-green-500 border-2 max-w-[45px] p-[2px] rounded-full"
-                      src="http://localhost:5173/src/assets/images/demo.jpg"
+                      src="/images/demo.jpg"
                       alt=""
                     />
                     <div className="w-[10px] h-[10px] bg-green-500 rounded-full absolute right-0 bottom-0"></div>
@@ -176,7 +176,7 @@ const SellerToCustomer = () => {
                             <div>
                               <img
                                 className="w-[38px] h-[38px] border-2 border-white rounded-full max-w-[38px] p-[3px]"
-                                src="http://localhost:5173/src/assets/images/demo.jpg"
+                                src="/images/demo.jpg"
                                 alt=""
                               />
                             </div>
@@ -200,7 +200,7 @@ const SellerToCustomer = () => {
                             <div>
                               <img
                                 className="w-[38px] h-[38px] border-2 border-white rounded-full max-w-[38px] p-[3px]"
-                                src="http://localhost:5173/src/assets/images/admin.jpg"
+                                src="/images/admin.jpg"
                                 alt=""
                               />
                             </div>
