@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import Router from './router/Router'
 import { getRoutes } from './router/routes'
-import publicRoutes from './router/routes/PublicRoutes'
+import publicRoutes from './router/routes/publicRoutes'
 import { getUserInfo } from './store/reducers/authReducer'
 
 function App() {
